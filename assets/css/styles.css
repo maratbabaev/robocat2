@@ -1299,6 +1299,12 @@ footer:before {
     width: 100%;
     padding: 10px 40px 20px;
   }
+  .banner__content__dots span:nth-child(1) {
+    background: rgb(255, 107, 0);
+  }
+  .banner__content__dots span {
+    background: rgb(255, 255, 255);
+  }
   .banner__content p:nth-child(3) {
     font-size: 14px;
     background: none;
