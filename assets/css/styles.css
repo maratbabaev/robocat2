@@ -237,29 +237,6 @@ header.active .header__btn:last-child {
           mask-repeat: no-repeat;
   will-change: mask-image;
 }
-.sidebar__menu:before {
-  z-index: 2;
-  inset-block: auto 35px;
-  height: 30px;
-  background: linear-gradient(transparent, rgba(77, 1, 181, 0.7));
-  content: "";
-  position: absolute;
-  inset-inline: 20px 0;
-  pointer-events: none;
-}
-.sidebar__menu:after {
-  z-index: 4;
-  inset-block: auto 4px;
-  height: 48px;
-  background-image: url(../images/sidebar-bottom-open-100px.webp);
-  background-size: cover;
-  -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 40% 100%);
-          mask-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0) 40% 100%);
-  content: "";
-  position: absolute;
-  inset-inline: 2px;
-  pointer-events: none;
-}
 
 .sidebar__line {
   display: none;

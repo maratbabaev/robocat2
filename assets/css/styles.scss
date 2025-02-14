@@ -293,28 +293,28 @@ header {
 	mask-repeat: no-repeat;
 	will-change: mask-image;
 
-	&:before {
-		z-index: 2;
-		inset-block: auto 35px;
-		height: 30px;
-		background: linear-gradient(transparent, rgb(77 1 181 / 0.7));
-		content: "";
-		position: absolute;
-		inset-inline: 20px 0;
-		pointer-events: none;
-	}
-	&:after {
-		z-index: 4;
-		inset-block: auto 4px;
-		height: 48px;
-		background-image: url(../images/sidebar-bottom-open-100px.webp);
-		background-size: cover;
-		mask-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0) 40% 100%);
-		content: "";
-		position: absolute;
-		inset-inline: 2px;
-		pointer-events: none;
-	}
+	// &:before {
+	// 	z-index: 2;
+	// 	inset-block: auto 35px;
+	// 	height: 30px;
+	// 	background: linear-gradient(transparent, rgb(77 1 181 / 0.7));
+	// 	content: "";
+	// 	position: absolute;
+	// 	inset-inline: 20px 0;
+	// 	pointer-events: none;
+	// }
+	// &:after {
+	// 	z-index: 4;
+	// 	inset-block: auto 4px;
+	// 	height: 48px;
+	// 	background-image: url(../images/sidebar-bottom-open-100px.webp);
+	// 	background-size: cover;
+	// 	mask-image: linear-gradient(rgb(0 0 0 / 0), rgb(0 0 0) 40% 100%);
+	// 	content: "";
+	// 	position: absolute;
+	// 	inset-inline: 2px;
+	// 	pointer-events: none;
+	// }
 }
 
 .sidebar__line {
