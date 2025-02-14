@@ -1540,9 +1540,21 @@ footer {
 	}
 	.banner__content p:nth-child(3) {
 		font-size: 14px;
+		background: none;
+		filter: none;
+		-webkit-text-fill-color: unset;
+		-webkit-text-stroke-width: unset;
+		-webkit-text-stroke-color: unset;
+		color: #fff;
 	}
 	.banner__content p:nth-child(4) {
 		margin-top: 3px;
+	}
+	.banner__content p:nth-child(4) span {
+		background: none;
+		-webkit-text-fill-color: unset;
+		filter: none;
+		color: rgb(255, 229, 0);
 	}
 	.banner__content p:nth-child(5) {
 		margin-top: 10px;
